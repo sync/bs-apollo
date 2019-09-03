@@ -4,5 +4,4 @@ lib/
 .merlin
 .bsb.lock
 *.bs.js
-*.gen.tsx
 dist

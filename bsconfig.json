@@ -23,22 +23,5 @@
   "bs-dependencies": ["reason-react"],
   "bs-dev-dependencies": ["@glennsl/bs-jest", "bs-react-testing-library"],
   "bsc-flags": ["-bs-super-errors"],
-  "refmt": 3,
-  "gentypeconfig": {
-    "language": "typescript",
-    "module": "es6",
-    "importPath": "relative",
-    "shims": {
-      "Js": "Js",
-      "React": "ReactShim",
-      "ReactEvent": "ReactEvent",
-      "ReasonPervasives": "ReasonPervasives",
-      "ReasonReact": "ReactShim"
-    },
-    "debug": {
-      "all": false,
-      "basic": false
-    },
-    "exportInterfaces": false
-  }
+  "refmt": 3
 }
