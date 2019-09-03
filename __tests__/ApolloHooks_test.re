@@ -1,6 +1,5 @@
 open Jest;
 open Expect;
-open ApolloHooks;
 
 %raw
 "global.fetch.mockRejectOnce(new Error('something is bad'))";
@@ -19,12 +18,6 @@ query GetSubreddit($name: String!) {
 ];
 
 let query = SubredditQuery.make(~name="reactjs", ());
-
-describe("gql", () =>
-  test("returns a graphql tag", () =>
-    gql(. query##query) |> expect |> ExpectJs.toBeTruthy
-  )
-);
 
 module ApolloClient = {
   type t;
