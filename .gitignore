@@ -5,3 +5,4 @@ lib/
 .bsb.lock
 *.bs.js
 dist
+.graphql_ppx_cache

@@ -21,7 +21,8 @@
   ],
   "suffix": ".bs.js",
   "bs-dependencies": ["reason-react"],
-  "bs-dev-dependencies": ["@glennsl/bs-jest", "bs-react-testing-library"],
+  "bs-dev-dependencies": ["@glennsl/bs-jest", "bs-dom-testing-library", "bs-react-testing-library"],
   "bsc-flags": ["-bs-super-errors"],
+  "ppx-flags": ["graphql_ppx/ppx"],
   "refmt": 3
 }

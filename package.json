@@ -35,22 +35,31 @@
     "url": "https://github.com/sync/bs-apollo.git"
   },
   "peerDependencies": {
+    "@apollo/react-hooks": "^3.0.1",
+    "apollo-client": "^2.6.4",
+    "apollo-utilities": "^1.3.2",
     "bs-platform": "^5.0.6",
+    "graphql": "^14.5.4",
+    "graphql-tag": "^2.10.1",
+    "graphql_ppx": "^0.2.8",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "reason-react": "^0.7.0"
   },
   "devDependencies": {
-    "@apollo/react-hooks": "^3.0.1",
+    "@apollo/react-hooks": "3.0.1",
     "@glennsl/bs-jest": "0.4.9",
-    "@types/node": "12.7.3",
-    "@types/react": "16.9.2",
-    "apollo-client": "^2.6.4",
-    "apollo-utilities": "^1.3.2",
+    "@types/react": "16.8.0",
+    "apollo-boost": "0.4.4",
+    "apollo-client": "2.6.4",
+    "apollo-utilities": "1.3.2",
+    "bs-dom-testing-library": "0.5.1",
     "bs-platform": "5.0.6",
     "bs-react-testing-library": "0.6.0",
-    "graphql": "^14.5.4",
-    "graphql-tag": "^2.10.1",
+    "graphql": "14.5.4",
+    "graphql-tag": "2.10.1",
+    "graphql_ppx": "0.2.8",
+    "jest-fetch-mock": "2.1.2",
     "react": "16.9.0",
     "react-dom": "16.9.0",
     "reason-react": "0.7.0"
@@ -61,6 +70,10 @@
     ],
     "testMatch": [
       "**/lib/js/__tests__/*_test.bs.js"
+    ],
+    "automock": false,
+    "setupFiles": [
+      "./setupJest.js"
     ]
   }
 }
