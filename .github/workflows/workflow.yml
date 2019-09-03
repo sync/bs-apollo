@@ -1,0 +1,21 @@
+name: Main Workflow
+on: [push]
+jobs:
+  build:
+    name: Install and Test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: "10.16.0"
+
+      - name: Install
+        run: |
+          npm install -g yarn
+          yarn install
+
+      - name: Test
+        run: yarn test
