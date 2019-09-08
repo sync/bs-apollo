@@ -19,3 +19,9 @@ Then add it to `bsconfig.json`:
   "bs-apollo"
 ]
 ```
+
+## Publishing to NPM
+
+```sh
+yarn publish --minor --access public
+```
