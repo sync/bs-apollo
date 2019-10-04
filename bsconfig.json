@@ -23,6 +23,6 @@
   "bs-dependencies": ["reason-react"],
   "bs-dev-dependencies": ["@glennsl/bs-jest", "bs-dom-testing-library", "bs-react-testing-library"],
   "bsc-flags": ["-bs-super-errors"],
-  "ppx-flags": ["graphql_ppx/ppx"],
+  "ppx-flags": ["@baransu/graphql_ppx_re/ppx"],
   "refmt": 3
 }
