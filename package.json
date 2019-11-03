@@ -1,6 +1,6 @@
 {
   "name": "@dblechoc/bs-apollo",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Minimal @apollo/react-hooks bindings written in ReasonML",
   "main": "src/ApolloHooks.re",
   "author": "Anthony Mittaz",
