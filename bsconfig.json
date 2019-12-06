@@ -24,5 +24,23 @@
   "bs-dev-dependencies": ["@glennsl/bs-jest", "bs-dom-testing-library", "bs-react-testing-library"],
   "bsc-flags": ["-bs-super-errors"],
   "ppx-flags": ["@baransu/graphql_ppx_re/ppx6"],
-  "refmt": 3
+  "refmt": 3,
+  "gentypeconfig": {
+  "language": "typescript",
+  "module": "es6",
+  "importPath": "relative",
+  "shims": {
+    "Js": "Js",
+    "React": "ReactShim",
+    "ReactEvent": "ReactEvent",
+    "ReasonPervasives": "ReasonPervasives",
+    "ReasonReact": "ReactShim"
+    },
+    "debug": {
+      "all": false,
+      "basic": false
+    },
+    "exportInterfaces": false
+  }
+
 }

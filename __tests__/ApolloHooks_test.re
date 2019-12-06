@@ -22,7 +22,6 @@ let query = SubredditQuery.make(~name="reactjs", ());
 module ApolloClient = {
   type t;
 
-  [@bs.deriving abstract]
   type config = {uri: string};
 
   [@bs.module "apollo-boost"] [@bs.new] external make: config => t = "default";
@@ -63,8 +62,7 @@ describe("useQuery", () =>
   testPromise("returns an error", () => {
     open ReactTestingLibrary;
 
-    let client =
-      ApolloClient.make(ApolloClient.config(~uri="localhost:666"));
+    let client = ApolloClient.make(ApolloClient.{uri: "localhost:666"});
     let result =
       ReactTestingLibrary.render(
         <ApolloProvider client> <TestComponent /> </ApolloProvider>,

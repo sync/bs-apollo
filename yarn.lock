@@ -400,7 +400,7 @@
     "@types/istanbul-lib-coverage" "*"
     "@types/istanbul-lib-report" "*"
 
-"@types/node@>=6":
+"@types/node@12.12.14", "@types/node@>=6":
   version "12.12.14"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.12.14.tgz#1c1d6e3c75dba466e0326948d56e8bd72a1903d2"
   integrity sha512-u/SJDyXwuihpwjXy7hOOghagLEV1KdAST6syfnOk6QZAMzZuWZqXy5aYYZbh8Jdpd4escVFP0MvftHNDb9pruA==
@@ -1439,6 +1439,11 @@ gauge@~2.7.3:
     string-width "^1.0.1"
     strip-ansi "^3.0.1"
     wide-align "^1.1.0"
+
+gentype@3.6.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/gentype/-/gentype-3.6.0.tgz#8d913d7e3d4909c7c690f9b96a60e6d093b60a63"
+  integrity sha512-2lcnaOORjYkRyoexz5wVYh6uQ7/XFAcY+v4w1yfP7FuNbkdhh/BSRSLXj32gO4AVaDSGKTQeix6eeCNlLw0+CQ==
 
 get-caller-file@^2.0.1:
   version "2.0.5"
@@ -3654,6 +3659,11 @@ type-check@~0.3.2:
   integrity sha1-WITKtRLPHTVeP7eE8wgEsrUg23I=
   dependencies:
     prelude-ls "~1.1.2"
+
+typescript@3.7.3:
+  version "3.7.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.7.3.tgz#b36840668a16458a7025b9eabfad11b66ab85c69"
+  integrity sha512-Mcr/Qk7hXqFBXMN7p7Lusj1ktCBydylfQM/FZCk5glCNQJrCUKPkMHdo9R0MTFWsC/4kPFvDS0fDPvukfCkFsw==
 
 uglify-js@^3.1.4:
   version "3.7.1"

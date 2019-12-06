@@ -4,10 +4,8 @@ type gql = (. string) => queryString;
 
 [@bs.module "graphql-tag"] external gql: gql = "default";
 
-[@bs.deriving abstract]
 type apolloError = {message: string};
 
-[@bs.deriving abstract]
 type clientRequestResult('data) = {
   loading: bool,
   error: option(apolloError),
@@ -29,10 +27,10 @@ let useQuery = (~query) => {
   let options = Js.Dict.fromList([("variables", query##variables)]);
   let result = _useQuery(graphqlQueryAST, options);
 
-  switch (result->loadingGet, result->errorGet, result->dataGet) {
+  switch (result.loading, result.error, result.data) {
   | (true, _, _) => Loading
   | (false, _, Some(response)) => Data(response |> query##parse)
-  | (false, Some(error), None) => Error(error->messageGet)
+  | (false, Some(error), None) => Error(error.message)
   | _ => Error("Something is wrong")
   };
 };
