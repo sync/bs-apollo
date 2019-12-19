@@ -61,7 +61,7 @@
     "bs-dom-testing-library": "0.5.1",
     "bs-platform": "7.0.1",
     "bs-react-testing-library": "0.6.0",
-    "gentype": "3.7.1",
+    "gentype": "3.8.0",
     "graphql": "14.5.8",
     "graphql-tag": "2.10.1",
     "jest-fetch-mock": "3.0.0",
