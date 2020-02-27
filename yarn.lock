@@ -1455,10 +1455,10 @@ gauge@~2.7.3:
     strip-ansi "^3.0.1"
     wide-align "^1.1.0"
 
-gentype@3.11.0:
-  version "3.11.0"
-  resolved "https://registry.yarnpkg.com/gentype/-/gentype-3.11.0.tgz#1a94b991fc66342fc7284245d89a71df7ead9258"
-  integrity sha512-vDktu0IZltg5qxeqbtH93JhQqLycbn1R+HWYZiLOzY4HX1/PCo+iPJKwJwMolwRZzxF/pVl8+Lbt13cgtHPQHw==
+gentype@3.13.0:
+  version "3.13.0"
+  resolved "https://registry.yarnpkg.com/gentype/-/gentype-3.13.0.tgz#71d53a9e138ca516aec9dd320e67a6c3a7444462"
+  integrity sha512-L9n91WFU77iHAoUNoM2qidu9NV4GiVm72ogN9ro5AdXZFlIguTy02q24Abnh4ua63CQIkQ+OhYdNJ/+1enZFDg==
 
 get-caller-file@^2.0.1:
   version "2.0.5"
