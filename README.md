@@ -6,10 +6,10 @@ Minimal @apollo/react-hooks bindings written in ReasonML
 
 ```shell
 # yarn
-yarn add @sync/bs-apollo
+yarn add @dblechoc/bs-apollo
 
 # or npm
-npm install --save @sync/bs-apollo
+npm install --save @dblechoc/bs-apollo
 ```
 
 Then add it to `bsconfig.json`:
