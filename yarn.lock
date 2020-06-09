@@ -3086,10 +3086,10 @@ realpath-native@^1.1.0:
   dependencies:
     util.promisify "^1.0.0"
 
-reason-react@0.9.0:
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/reason-react/-/reason-react-0.9.0.tgz#1f2a2d21eec60116ee1212294a635c00a2322523"
-  integrity sha512-YkBXtca80tHAxwYA+eLuV1BhAPCInRpdcbhfQSyLONMMibs8htxm9hAFdFrwDivytvKBmJmkGqfHiT6GDW1BOw==
+reason-react@0.9.1:
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/reason-react/-/reason-react-0.9.1.tgz#30a887158200b659aa03e2d75ff4cc54dc462bb0"
+  integrity sha512-nlH0O2TDy9KzOLOW+vlEQk4ExHOeciyzFdoLcsmmiit6hx6H5+CVDrwJ+8aiaLT/kqK5xFOjy4PS7PftWz4plA==
 
 regenerator-runtime@^0.13.2:
   version "0.13.3"
