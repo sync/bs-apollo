@@ -63,7 +63,7 @@
     "bs-react-testing-library": "0.6.0",
     "gentype": "3.29.0",
     "graphql": "15.3.0",
-    "graphql-tag": "2.10.4",
+    "graphql-tag": "2.11.0",
     "jest-fetch-mock": "3.0.3",
     "react": "16.13.1",
     "react-dom": "16.13.1",
