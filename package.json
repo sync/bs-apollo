@@ -54,7 +54,7 @@
     "@baransu/graphql_ppx_re": "0.7.1",
     "@glennsl/bs-jest": "0.5.1",
     "@types/node": "12.12.31",
-    "@types/react": "16.9.47",
+    "@types/react": "16.9.48",
     "apollo-boost": "0.4.9",
     "apollo-client": "2.6.10",
     "apollo-utilities": "1.3.4",
